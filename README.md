@@ -10,7 +10,7 @@ Users can select moods and languages to discover songs with album covers, artist
 
 * Mood-based playlist generation
 * Language selection
-* Real song fetching using Deezer API
+* Real song fetching using iTunes API
 * Song previews with audio player
 * Album cover display
 * Attractive Spotify-style UI
