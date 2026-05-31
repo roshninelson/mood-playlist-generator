@@ -1,6 +1,6 @@
 # 🎵 Mood Playlist Generator
 
-A Spotify-style music web app that generates playlists based on user mood and language preferences using the Deezer API.
+A Spotify-style music web app that generates playlists based on user mood and language preferences using the iTunes API.
 
 Users can select moods and languages to discover songs with album covers, artist details, and playable previews.
 
@@ -44,7 +44,7 @@ Users can select moods and languages to discover songs with album covers, artist
 * HTML
 * CSS
 * JavaScript
-* Deezer API
+* iTunes API
 
 ---
 
