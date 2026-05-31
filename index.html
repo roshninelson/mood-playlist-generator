@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Mood Playlist Generator</title>
+
+  <link rel="stylesheet"
+  href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🎵 Mood Playlist Generator</h1>
+
+  <div class="selectors">
+
+    <select id="mood">
+      <option>Happy</option>
+      <option>Sad</option>
+      <option>Chill</option>
+      <option>Romantic</option>
+      <option>Motivation</option>
+    </select>
+
+    <select id="language">
+      <option>English</option>
+      <option>Hindi</option>
+      <option>Tamil</option>
+      <option>Malayalam</option>
+      <option>Telugu</option>
+      <option>French</option>
+    </select>
+
+  </div>
+
+  <button onclick="generatePlaylist()">
+    Generate Playlist
+  </button>
+
+  <div id="songsContainer"
+  class="songs-container"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
